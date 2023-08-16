@@ -4,7 +4,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
     return(
         <nav className="text-white border-gray-200 bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-          <a href="/" className="flex items-center bg-gray-900 ">
+          <a href="#home" className="flex items-center bg-gray-900 ">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2ZA8PT8tsTZkTHOtMPWUA9IZD9ukRM1gSw&usqp=CAU" className="h-8 mr-3 bg-gray-900 rounded-full" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">Will Putnam</span>
           </a>
