@@ -1,10 +1,10 @@
-
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-  <div>Hey</div>
-  );
-}
+import PortfolioContainer from './components/PortfolioContainer';
+
+
+
+const App = () => <PortfolioContainer />
 
 export default App;
