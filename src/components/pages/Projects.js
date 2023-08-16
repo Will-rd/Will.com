@@ -1,20 +1,26 @@
 import React from "react";
+import quiz from "../imgs/quiz.png"
+import generator from "../imgs/generator.png"
+import pokedex from "../imgs/pokedex.png"
+import schedule from "../imgs/schedule.png"
+
 export default function Projects() {
-    return (
-        <div>
-      <h1>Projects Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+  return (
+    <div className="flex flex-row justify-center content-center space-x-5 grid grid-rows-2 grid-flow-col gap-4">
+      
+      <a href="https://will-rd.github.io/Quiz-Game/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${quiz})`}}>
+      </a>
+      <a href="https://will-rd.github.io/Pokedex-App/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${pokedex})`}}>
+        
+      </a>
+      <a href="https://will-rd.github.io/Password-Generator/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${generator})`}}>
+        
+      </a>
+      <a href="https://will-rd.github.io/WorkDay-Scheduler/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${schedule})`}}>
+        
+      </a>
+
+
     </div>
-    );
+  );
 }

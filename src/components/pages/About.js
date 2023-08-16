@@ -2,18 +2,12 @@ import React from "react";
 export default function About() {
     return (
         <div>
-      <h1>About Page</h1>
+      <h1 className="text-4xl">About the Developer</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+              My name is Will Putnam and I am a full stack web development graduate from Georgia Insitute of Technology <br />
+      I have been working as a professional automotive technician for the past seven years and decided I wanted more from my career <br />
+      I enrolled in the bootcamp provided by Georgia Tech and hit the ground running working on all sorts of apps and projects <br />
+      that can be found in the project section of this webpage.
       </p>
     </div>
     );

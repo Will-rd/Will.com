@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="bg-slate-300">
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
