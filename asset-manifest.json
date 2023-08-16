@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Will.com/static/css/main.96dbc781.css",
-    "main.js": "/Will.com/static/js/main.ea46a02c.js",
+    "main.js": "/Will.com/static/js/main.af6c842d.js",
     "static/media/pokedex.png": "/Will.com/static/media/pokedex.64498e505d123909bba1.png",
     "static/media/schedule.png": "/Will.com/static/media/schedule.4dcbeecdeb42c96fcb81.png",
     "static/media/generator.png": "/Will.com/static/media/generator.cbe868035b393aa416da.png",
     "index.html": "/Will.com/index.html",
     "main.96dbc781.css.map": "/Will.com/static/css/main.96dbc781.css.map",
-    "main.ea46a02c.js.map": "/Will.com/static/js/main.ea46a02c.js.map"
+    "main.af6c842d.js.map": "/Will.com/static/js/main.af6c842d.js.map"
   },
   "entrypoints": [
     "static/css/main.96dbc781.css",
-    "static/js/main.ea46a02c.js"
+    "static/js/main.af6c842d.js"
   ]
 }
