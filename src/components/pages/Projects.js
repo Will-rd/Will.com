@@ -6,17 +6,18 @@ import schedule from "../imgs/schedule.png"
 
 export default function Projects() {
   return (
-    <div className="flex flex-row justify-center content-center space-x-5 grid grid-rows-2 grid-flow-col gap-4">
+    <div className="p-8 flex flex-row justify-center content-center space-x-5 flex items-center">
       
-      <a href="https://will-rd.github.io/Quiz-Game/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${quiz})`}}>
-      </a>
-      <a href="https://will-rd.github.io/Pokedex-App/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${pokedex})`}}>
+      <a href="https://will-rd.github.io/Quiz-Game/" className="p-8 border-solid border-4 border-black  bg-center  h-96 w-96" style={{backgroundImage: `url(${quiz})`}}>
         
       </a>
-      <a href="https://will-rd.github.io/Password-Generator/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${generator})`}}>
+      <a href="https://will-rd.github.io/Pokedex-App/" className="p-8 border-solid border-4 border-black  bg-cover bg-center h-96 w-96" style={{backgroundImage: `url(${pokedex})`}}>
         
       </a>
-      <a href="https://will-rd.github.io/WorkDay-Scheduler/" className=" col-span-2 bg-center h-96 w-96" style={{backgroundImage: `url(${schedule})`}}>
+      <a href="https://will-rd.github.io/Password-Generator/" className="p-8 border-solid border-4 border-black  bg-cover bg-center h-96 w-96" style={{backgroundImage: `url(${generator})`}}>
+        
+      </a>
+      <a href="https://will-rd.github.io/WorkDay-Scheduler/" className=" p-8 border-solid border-4 border-black bg-cover bg-center h-96 w-96" style={{backgroundImage: `url(${schedule})`}}>
         
       </a>
 

@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Navbar({ currentPage, handlePageChange }) {
     return(
-        <nav className="text-white border-gray-200 bg-gray-900">
+        <nav className="text-white border-gray-200 bg-gray-900 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
           <a href="#home" className="flex items-center bg-gray-900 ">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2ZA8PT8tsTZkTHOtMPWUA9IZD9ukRM1gSw&usqp=CAU" className="h-8 mr-3 bg-gray-900 rounded-full" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">Will Putnam</span>
           </a>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div className="hidden w-full md:block md:w-auto " id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700">
               <li>
                 <a href="#home" onClick={() => handlePageChange('Home')} className={`${currentPage === "Home"}block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 :text-white md:text-blue-500 `} aria-current="page">Home</a>
