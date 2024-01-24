@@ -34,8 +34,8 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="aspect-auto h-screen w-auto bg-cover bg-center flex items-center justify-center">
-            <div className="bg-cover bg-center w-96 h-96" style={{backgroundImage: `url(${bgImg})`}}></div>
+        <div className="aspect-auto h-screen w-auto bg-cover bg-center flex items-center justify-center bg-black">
+            <div className="bg-cover bg-center w-full h-full " style={{backgroundImage: `url(${bgImg})`}}></div>
         </div>
     );
 }
