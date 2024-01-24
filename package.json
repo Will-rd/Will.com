@@ -1,7 +1,7 @@
 {
   "name": "real-portfolio",
   "version": "0.1.0",
-  "homepage": "https://www.willpower.dev",
+  "homepage": "https://will-rd.github.io/Will.com/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
