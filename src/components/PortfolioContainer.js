@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import Navbar from "./Header";
 import Home from "./pages/Home";
@@ -5,6 +6,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Funsies from "./pages/Funsies";
 import Projects from "./pages/Projects";
+
+const bgImg = require("./imgs/willPower.jpg")
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -25,15 +28,36 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'Contact') {
             return <Contact />;
-        } 
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="bg-slate-300">
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+        <div className="aspect-auto h-screen w-auto bg-cover bg-center flex items-center justify-center">
+            <div className="bg-cover bg-center w-96 h-96" style={{backgroundImage: `url(${bgImg})`}}></div>
         </div>
     );
 }
+
+
+
+//THIS IS THE NAVBAR! I am redesigning the layout so this will change eventually
+// but it is functional!
+
+// {/* <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+//             {renderPage()} */}
+
+
+
+
+// function recursiveRange(num){
+//     let count = num;
+//     if(count === 0) return 0;
+//     return count + recursiveRange(num - 1);
+//  }
+
+//  <main className="box-border h-80 w-80 bg-orange-400 rounded-full ring-2 ring-grey-400 ring-inset shadow-lg shadow-cyan-500  flex items-center justify-center font-serif">
+//                 <button className="hover:text-orange-400 active:text-orange-400 text-2xl font-bold tracking-wide text-sky-950" >willPower()</button>
+//             </main>
+ 
