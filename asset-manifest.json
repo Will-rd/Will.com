@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Will.com/static/css/main.b0382086.css",
-    "main.js": "/Will.com/static/js/main.e4685360.js",
-    "static/media/pokedex.png": "/Will.com/static/media/pokedex.64498e505d123909bba1.png",
-    "static/media/schedule.png": "/Will.com/static/media/schedule.4dcbeecdeb42c96fcb81.png",
-    "static/media/generator.png": "/Will.com/static/media/generator.cbe868035b393aa416da.png",
-    "index.html": "/Will.com/index.html",
-    "main.b0382086.css.map": "/Will.com/static/css/main.b0382086.css.map",
-    "main.e4685360.js.map": "/Will.com/static/js/main.e4685360.js.map"
+    "main.css": "/static/css/main.03eb3c7d.css",
+    "main.js": "/static/js/main.0fedfc97.js",
+    "static/media/pokedex.png": "/static/media/pokedex.64498e505d123909bba1.png",
+    "static/media/schedule.png": "/static/media/schedule.4dcbeecdeb42c96fcb81.png",
+    "static/media/willPower.jpg": "/static/media/willPower.1dea21ac0e2b9ef776fc.jpg",
+    "static/media/generator.png": "/static/media/generator.cbe868035b393aa416da.png",
+    "index.html": "/index.html",
+    "main.03eb3c7d.css.map": "/static/css/main.03eb3c7d.css.map",
+    "main.0fedfc97.js.map": "/static/js/main.0fedfc97.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0382086.css",
-    "static/js/main.e4685360.js"
+    "static/css/main.03eb3c7d.css",
+    "static/js/main.0fedfc97.js"
   ]
 }
