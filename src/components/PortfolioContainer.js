@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Funsies from "./pages/Funsies";
 import Projects from "./pages/Projects";
 
-const bgImg = require("./imgs/willPower.jpg")
+const bgImg = require("./imgs/419716410_247383005070359_8984733528373287291_n.png")
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
