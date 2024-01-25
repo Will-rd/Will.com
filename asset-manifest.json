@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.03eb3c7d.css",
-    "main.js": "/static/js/main.0fedfc97.js",
+    "main.css": "/static/css/main.1810c9af.css",
+    "main.js": "/static/js/main.7b6f9072.js",
+    "static/media/newPower.png": "/static/media/newPower.ffeeae0c57dc86dad169.png",
     "static/media/pokedex.png": "/static/media/pokedex.64498e505d123909bba1.png",
     "static/media/schedule.png": "/static/media/schedule.4dcbeecdeb42c96fcb81.png",
-    "static/media/willPower.jpg": "/static/media/willPower.1dea21ac0e2b9ef776fc.jpg",
     "static/media/generator.png": "/static/media/generator.cbe868035b393aa416da.png",
     "index.html": "/index.html",
-    "main.03eb3c7d.css.map": "/static/css/main.03eb3c7d.css.map",
-    "main.0fedfc97.js.map": "/static/js/main.0fedfc97.js.map"
+    "main.1810c9af.css.map": "/static/css/main.1810c9af.css.map",
+    "main.7b6f9072.js.map": "/static/js/main.7b6f9072.js.map"
   },
   "entrypoints": [
-    "static/css/main.03eb3c7d.css",
-    "static/js/main.0fedfc97.js"
+    "static/css/main.1810c9af.css",
+    "static/js/main.7b6f9072.js"
   ]
 }
