@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Funsies from "./pages/Funsies";
 import Projects from "./pages/Projects";
 
-const bgImg = require("./imgs/419716410_247383005070359_8984733528373287291_n.png")
+const bgImg = require("./imgs/newPower.png")
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -34,8 +34,12 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="aspect-auto h-screen w-auto bg-cover bg-center flex items-center justify-center bg-black">
-            <div className="bg-cover bg-center w-full h-full " style={{backgroundImage: `url(${bgImg})`}}></div>
+
+        <div className="aspect-auto h-screen w-auto flex items-center justify-center bg-gray-600">
+
+            <div className="bg-contain bg-no-repeat bg-center w-11/12 h-5/6" style={{ backgroundImage: `url(${bgImg})` }}>
+            </div>
+
         </div>
     );
 }
@@ -60,4 +64,3 @@ export default function PortfolioContainer() {
 //  <main className="box-border h-80 w-80 bg-orange-400 rounded-full ring-2 ring-grey-400 ring-inset shadow-lg shadow-cyan-500  flex items-center justify-center font-serif">
 //                 <button className="hover:text-orange-400 active:text-orange-400 text-2xl font-bold tracking-wide text-sky-950" >willPower()</button>
 //             </main>
- 
