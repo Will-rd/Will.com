@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import Navbar from "./Header";
+import Nav from "./Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -35,12 +35,18 @@ export default function PortfolioContainer() {
 
     return (
 
-        <div className="aspect-auto h-screen w-auto flex items-center justify-center bg-gray-600">
+        <div className="aspect-auto h-screen bg-gray-600">
+            <Nav />
+            <a href="#projects" onClick={() => handlePageChange('Projects')} currentPage={currentPage} handlePageChange={handlePageChange} className={`${currentPage === "Projects"} bg-amber-400 rounded full absolute left-0 top-0 object-left-top m-10 w-20 h-7 text-center`}>
+                Projects
+            </a>
 
             <div className="bg-contain bg-no-repeat bg-center w-11/12 h-5/6" style={{ backgroundImage: `url(${bgImg})` }}>
             </div>
+            {renderPage()}
 
         </div>
+
     );
 }
 
