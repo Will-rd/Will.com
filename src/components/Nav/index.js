@@ -13,10 +13,10 @@ export default function Nav() {
         <div>
             <div className="navigation">
                 <ul className="">
-                    <li className="mt-2">Home</li>
-                    <li className="mt-2">About</li>
-                    <li className="mt-2">Contact Me</li>
-                    <li className="mt-2">Projects</li>
+                    <li className="m-2">Home</li>
+                    <li className="m-2">About</li>
+                    <li className="m-2">Contact Me</li>
+                    <li className="m-2">Projects</li>
 
 
                 </ul>
@@ -30,7 +30,9 @@ export default function Nav() {
                 .navigation {
                     width: 100%;
                     height: 50px;
-                    background-color: lemonchiffon;
+                    --tw-bg-opacity: 1;
+                    background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+                    color: lemonchiffon;
                 }
                 
                 .navigation ul {
@@ -50,11 +52,15 @@ export default function Nav() {
 
                     .navigation ul {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
-                        background-color: lemonchiffon;
+                        --tw-bg-opacity: 1;
+                        background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+                        color: lemonchiffon;
                         height 100vh;
-                        width: 50vw;
+                        width: 25vw;
                         margin-top: 50px;
                         position: absolute;
+                        border: solid lemonchiffon;
+                        border-width: 2px;
                     }
                 }
 
