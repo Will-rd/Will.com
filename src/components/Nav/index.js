@@ -1,7 +1,8 @@
+import React from "react";
 import { useState } from "react"
 import Hamburger from "../Hamburger"
 
-export default function Nav() {
+export default function Nav({ currentPage, handlePageChange}) {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
@@ -10,18 +11,36 @@ export default function Nav() {
     }
 
     return (
-        <div>
+        <div className="w-screen" > 
             <div className="navigation">
                 <ul className="">
-                    <li className="m-2">Home</li>
+                    <li className="m-2">
+                        <a
+                          href="#home"
+                          onClick={() => handlePageChange('Home')} 
+                          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                        >
+                        Home
+                        </a>
+                        
+                    </li>
                     <li className="m-2">About</li>
                     <li className="m-2">Contact Me</li>
-                    <li className="m-2">Projects</li>
+                    <li className="m-2">
+                        <a
+                          href="#projects"
+                          onClick={() => handlePageChange('Projects')} 
+                          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                        >
+                        Projects
+                        </a>
+                        
+                    </li>
 
 
                 </ul>
                 <div className="hamburger" onClick={toggleHamburger}>
-                    <Hamburger isOpen={hamburgerOpen}/>
+                    <Hamburger isOpen={hamburgerOpen} />
                 </div>
             </div>
 
@@ -56,7 +75,7 @@ export default function Nav() {
                         background-color: rgb(75 85 99 / var(--tw-bg-opacity));
                         color: lemonchiffon;
                         height 100vh;
-                        width: 25vw;
+                        width: 50vw;
                         margin-top: 50px;
                         position: absolute;
                         border: solid lemonchiffon;
