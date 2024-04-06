@@ -45,7 +45,7 @@ export default function Nav({ currentPage, handlePageChange}) {
             </div>
 
 
-            <style jsx>{`
+            <style>{`
                 .navigation {
                     width: 100%;
                     height: 50px;
