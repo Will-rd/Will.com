@@ -1,0 +1,17 @@
+.project {
+    min-height: 300px;
+    min-width: 300px;
+    margin-top: 8px;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#root {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
