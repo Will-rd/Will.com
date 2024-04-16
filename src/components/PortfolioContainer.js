@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
 import Home from "./pages/Home";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 // import Funsies from "./pages/Funsies";
 import Projects from "./pages/Projects";
 
@@ -19,6 +19,12 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'Projects') {
             return <Projects />;
+        }
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />
         }
     };
 

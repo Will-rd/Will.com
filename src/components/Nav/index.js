@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react"
 import Hamburger from "../Hamburger"
 
-export default function Nav({ currentPage, handlePageChange}) {
+export default function Nav({ currentPage, handlePageChange }) {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
@@ -11,30 +11,42 @@ export default function Nav({ currentPage, handlePageChange}) {
     }
 
     return (
-        <div className="w-screen" > 
+        <div className="w-screen" >
             <div className="navigation">
                 <ul className="">
                     <li className="m-2">
                         <a
-                          href="#home"
-                          onClick={() => handlePageChange('Home')} 
-                          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                            href="#home"
+                            onClick={() => handlePageChange('Home')}
+                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                         >
-                        Home
+                            Home
                         </a>
-                        
+
                     </li>
-                    <li className="m-2">About</li>
-                    <li className="m-2">Contact Me</li>
                     <li className="m-2">
                         <a
-                          href="#projects"
-                          onClick={() => handlePageChange('Projects')} 
-                          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                            href="#about"
+                            onClick={() => handlePageChange('About')}
+                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                         >
-                        Projects
+                            About Me</a></li>
+                            <li className="m-2">
+                        <a
+                            href="#about"
+                            onClick={() => handlePageChange('Contact')}
+                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Contact</a></li>
+                    <li className="m-2">
+                        <a
+                            href="#projects"
+                            onClick={() => handlePageChange('Projects')}
+                            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Projects
                         </a>
-                        
+
                     </li>
 
 

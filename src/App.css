@@ -15,3 +15,11 @@
     --tw-bg-opacity: 1;
     background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
+
+#about {
+    color: lemonchiffon;
+}
+
+#contact {
+    color: lemonchiffon;
+}
